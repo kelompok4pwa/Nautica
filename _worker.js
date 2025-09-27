@@ -7,16 +7,6 @@ let APP_DOMAIN = "server1990.pages.dev";
 let prxIP = "";
 let cachedPrxList = [];
 
-// const rootDomain = "server1990.pages.dev"; // Ganti dengan domain utama kalian
-// const serviceName = "server1990"; // Ganti dengan nama workers kalian
-// const apiKey = "Y9WN99Wtjk-tZkw4saZptfS9RX4WQGcKK5MN8H2j"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-// const apiEmail = "Kelompok4pwa@gmail.com"; // Ganti dengan email yang kalian gunakan
-// const accountID = "c48a93dc80f04018a28229605829a31e"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-// const zoneID = "fc7ecc7e864b46748ceb9a00b2a12640"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-// let isApiReady = false;
-// let proxyIP = "";
-// let cachedProxyList = [];
-
 // Constant
 const horse = "dHJvamFu";
 const flash = "dm1lc3M=";
