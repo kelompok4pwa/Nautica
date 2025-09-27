@@ -1,13 +1,12 @@
 import { connect } from "cloudflare:sockets";
 
-/*
 // Variables
 let serviceName = "";
 let APP_DOMAIN = "";
 
 let prxIP = "";
 let cachedPrxList = [];
-*/
+
 const rootDomain = "server1990.pages.dev"; // Ganti dengan domain utama kalian
 const serviceName = "server1990"; // Ganti dengan nama workers kalian
 const apiKey = "Y9WN99Wtjk-tZkw4saZptfS9RX4WQGcKK5MN8H2j"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
