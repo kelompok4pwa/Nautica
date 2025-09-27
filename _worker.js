@@ -1,11 +1,34 @@
 import { connect } from "cloudflare:sockets";
 
+/*
 // Variables
 let serviceName = "";
 let APP_DOMAIN = "";
 
 let prxIP = "";
 let cachedPrxList = [];
+*/
+
+/*Variables
+const rootDomain = "knendi398.workers.dev"; // Ganti dengan domain utama kalian
+const serviceName = "jebag"; // Ganti dengan nama workers kalian
+const apiKey = "Rev1ph4Id6-XLvbkH5IwejfnrUWMZS_YtQd2dTsQ"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "Knendi398@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "5ce8daaea52b23a2ccb2332fac24fcd6"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "b72637660761544e7b7f12dad2b5496c"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+let isApiReady = false;
+let proxyIP = "";
+let cachedProxyList = [];
+*/
+const rootDomain = "server1990.pages.dev"; // Ganti dengan domain utama kalian
+const serviceName = "server1990"; // Ganti dengan nama workers kalian
+const apiKey = "Y9WN99Wtjk-tZkw4saZptfS9RX4WQGcKK5MN8H2j"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "Kelompok4pwa@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "c48a93dc80f04018a28229605829a31e"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "fc7ecc7e864b46748ceb9a00b2a12640"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+let isApiReady = false;
+let proxyIP = "";
+let cachedProxyList = [];
 
 // Constant
 const horse = "dHJvamFu";
